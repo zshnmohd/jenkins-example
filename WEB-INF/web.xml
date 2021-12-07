@@ -1,0 +1,19 @@
+<web-app>
+<description>
+      Simple Servlet Program
+    </description>
+    <display-name>Servlets</display-name>
+
+    <request-character-encoding>UTF-8</request-character-encoding>
+
+  <servlet>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>HelloWorld</servlet-class>  
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/Hello/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
